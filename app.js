@@ -27,7 +27,7 @@ app.set('key', config.key)
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 
-app.listen(3000, ()=>{
+app.listen(3001, ()=>{
     console.info('server funcionando')
 })
 app.get('/', (req, res)=>{
